@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-darkBlue: hsl(238, 29%, 16%); 
+    --text-red: hsl(14, 88%, 65%); 
+    --text-darkGrayBlue: hsl(237, 12%, 33%);
+    --text-grayBlue: hsl(240, 6%, 50%);
+    --grad-violet: hsl(273, 75%, 66%);
+    --grad-blue: hsl(240, 73%, 65%);
+    --div-grayBlue: hsl(240, 5%, 91%);
+    --font-size: 0.75rem; /* 12px */ 
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

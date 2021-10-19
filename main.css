@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,43 @@
     --div-grayBlue: hsl(240, 5%, 91%);
     --font-size: 0.75rem; /* 12px */ 
 
+}
+
+body {
+    background: linear-gradient(var(--grad-violet), var(--grad-blue));
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: var(--font-size);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-card {
+    background-image: url(images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: white;
+    width: 325px;
+    height: 500px;
+    margin: 0 25px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--text-darkBlue);
+    padding-top: 140px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.content {
+    display: none;
 }
 
 .attribution { font-size: 11px; text-align: center; }

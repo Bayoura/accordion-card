@@ -80,7 +80,8 @@ body {
     transform: scaleY(-1);
 to turn it upside down */
 
-.desktop-img {
+.desktop-img, 
+.cube {
     display: none;
 }
 
@@ -111,26 +112,47 @@ footer {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
+
+    h1 {
+        padding-top: 60px;
+    }
     .desktop-img {
         display: block;
-        width: 100%;
         height: auto;
-        max-width: 400px;
-        transform: translateX(-4rem);
+        max-width: 100%;
+        transform: translateX(-5rem);
+    }
+    .cube {
+        display: block;
+        transform: translateX(-50%);
+        top: 40%;
+        position: absolute;
+        z-index: 1;
     }
     .img-container {
-        overflow: hidden;
+        overflow-x: hidden;
+        transform: translateY(10%);
         display: flex;
-        align-items: center;
     }
     .mobile-img {
         display: none;
     }
     .accordion-card {
         background-image: url(images/bg-pattern-desktop.svg);
-        background-position: left center;
-        background-size: contain;
+        background-position: -33rem -18rem;
+        background-size: cover;
         display: flex;
+        padding-bottom: 90px;
+        padding-right: 90px;
+        margin: 0;
+        max-width: 100%;
+    }
+    .accordion-text {
+        width: 350px;
+        margin-left: 10px;
+    }
+    .accordion-item {
+        padding: 10px 0;
     }
 }

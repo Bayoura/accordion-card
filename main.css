@@ -54,6 +54,7 @@ body {
 }
 
 .label {
+    cursor: pointer;
     border: none;
     background-color: white;
     font-family: 'Kumbh Sans', sans-serif;
@@ -141,8 +142,9 @@ footer {
     }
     .cube {
         display: block;
-        transform: translateX(-50%);
-        top: 40%;
+        /* transform: translateX(-50%); */
+        left: -100px;
+        top: 190px;
         position: absolute;
         z-index: 1;
     }

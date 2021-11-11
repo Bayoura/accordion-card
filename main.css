@@ -54,6 +54,9 @@ body {
 }
 
 .label {
+    border: none;
+    background-color: white;
+    font-family: 'Kumbh Sans', sans-serif;
     padding: 5px 5px 5px 0;
     color: var(--text-darkGrayBlue);
     font-size: 14px;
@@ -61,13 +64,14 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+    width: 100%;
 }
 
 .label::after {
     content: '';
     background-image: url(images/icon-arrow-down.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    justify-self: flex-end;
     background-size: contain;
     width: 10px;
     height: 7px;

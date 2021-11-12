@@ -1,6 +1,6 @@
 # FAQ-Accordion
 
-![Screenshot](faq-card-screenshot.png)
+![Screenshot](design/faq-card-screenshot.png)
 
 ## Links
 
